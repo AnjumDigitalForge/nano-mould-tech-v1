@@ -1,0 +1,482 @@
+#basic_cont, #cont_nav, #cont1, #cont2, #cont3, #cont_prod, #footer {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #494d52;
+  box-shadow: 5px 5px 7px 3px #ccffef;
+  width: 100%;
+  margin-top: 5%; }
+
+#cont_nav {
+  width: 100%;
+  height: auto;
+  margin-top: 0%; }
+
+#cont1 {
+  width: 70%;
+  margin-top: 10%;
+  margin-bottom: 2%; }
+
+#cont2 {
+  width: 50%; }
+
+#cont3 {
+  width: 100%;
+  margin-top: 2%; }
+
+#cont_prod {
+  background-color: #494d52;
+  margin-top: 2%;
+  width: 100%; }
+
+#footer {
+  margin-top: 2%;
+  margin-bottom: 2%; }
+  #footer p {
+    color: #ebebe0; }
+    #footer p:hover {
+      color: #009900; }
+  #footer #imp_links {
+    border: px solid #000000;
+    width: auto;
+    height: auto; }
+  #footer #footer_left {
+    border: px solid #000000;
+    margin-left: 5%; }
+    #footer #footer_left #contct {
+      border: px solid #000000;
+      width: 100%;
+      margin-top: 2%; }
+      #footer #footer_left #contct a {
+        color: #ebebe0; }
+        #footer #footer_left #contct a:hover {
+          color: #009900; }
+  #footer #footer_right {
+    border: px solid #000000;
+    margin-left: 3%; }
+    #footer #footer_right #cont_links {
+      margin: auto;
+      display: block; }
+      #footer #footer_right #cont_links a {
+        color: #ebebe0; }
+        #footer #footer_right #cont_links a:hover {
+          color: #009900; }
+    #footer #footer_right h3 {
+      color: #ebebe0; }
+      #footer #footer_right h3:hover {
+        color: #009900; }
+  #footer #copyright p {
+    color: #ebebe0; }
+    #footer #copyright p:hover {
+      color: #009900; }
+  #footer #copyright a {
+    color: #ebebe0; }
+    #footer #copyright a:hover {
+      color: #009900; }
+
+form {
+  border: px solid transparent;
+  font-weight: bold;
+  margin-top: 5%; }
+  form:hover {
+    color: #009900; }
+  form input {
+    margin-bottom: 10%; }
+
+#formrow1 {
+  margin: 0%; }
+
+h1, #h1 {
+  text-align: center;
+  margin-top: 2%;
+  color: #494d52; }
+  h1:hover, #h1:hover {
+    color: #006bb3; }
+
+#h1 {
+  margin-top: 1%; }
+
+#h2 {
+  color: #ebebe0;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #h2:hover {
+    color: #009900; }
+
+h3 {
+  text-align: center;
+  font-family: Times New Roman;
+  font-weight: Bold;
+  color: #494d52;
+  margin-top: 2%; }
+  h3:hover {
+    color: #006bb3; }
+
+h5 {
+  text-align: center;
+  font-family: Times New Roman;
+  font-weight: Bold;
+  color: #ebebe0;
+  margin-top: 2%; }
+  h5:hover {
+    color: #009900; }
+
+@media screen and (max-width: 991px) {
+  #cont_nav {
+    width: 100%;
+    height: auto; }
+
+  #logbox {
+    width: 15%; }
+
+  #navbar {
+    width: 80%; }
+    #navbar #nav1 ul li {
+      margin-left: 1%; }
+
+  #marquee {
+    border: px solid #f71505;
+    font-weight: Bold;
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 5%; }
+    #marquee:hover {
+      color: #006bb3; }
+
+  #srvc_cat_1 a, #srvc_cats #srvc_cat_2_1 a {
+    font-size: 14.2px; } }
+#prod, #prod1, #prod2, #prod3, #prod4, #prod5, #prod6, #prod7, #prod8, #prod9 {
+  border: px solid #000000;
+  height: auto;
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+  #prod:hover, #prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover, #prod6:hover, #prod7:hover, #prod8:hover, #prod9:hover {
+    box-shadow: 2px 2px 7px 7px #4a9146; }
+  #prod .img, #prod1 .img, #prod2 .img, #prod3 .img, #prod4 .img, #prod5 .img, #prod6 .img, #prod7 .img, #prod8 .img, #prod9 .img {
+    border: px solid #f71505;
+    width: auto;
+    height: auto;
+    overflow: hidden; }
+    #prod .img img, #prod1 .img img, #prod2 .img img, #prod3 .img img, #prod4 .img img, #prod5 .img img, #prod6 .img img, #prod7 .img img, #prod8 .img img, #prod9 .img img {
+      width: 100%;
+      height: 100%; }
+      #prod .img img:hover, #prod1 .img img:hover, #prod2 .img img:hover, #prod3 .img img:hover, #prod4 .img img:hover, #prod5 .img img:hover, #prod6 .img img:hover, #prod7 .img img:hover, #prod8 .img img:hover, #prod9 .img img:hover {
+        width: 110%;
+        height: 110%;
+        margin-top: -5%;
+        margin-left: -5%;
+        transition: 1s;
+        overflow: hidden; }
+  #prod #para, #prod1 #para, #prod2 #para, #prod3 #para, #prod4 #para, #prod5 #para, #prod6 #para, #prod7 #para, #prod8 #para, #prod9 #para, #prod #prod1 #para1, #prod1 #prod #para1, #prod1 #para1, #prod2 #prod1 #para1, #prod1 #prod2 #para1, #prod3 #prod1 #para1, #prod1 #prod3 #para1, #prod4 #prod1 #para1, #prod1 #prod4 #para1, #prod5 #prod1 #para1, #prod1 #prod5 #para1, #prod6 #prod1 #para1, #prod1 #prod6 #para1, #prod7 #prod1 #para1, #prod1 #prod7 #para1, #prod8 #prod1 #para1, #prod1 #prod8 #para1, #prod9 #prod1 #para1, #prod1 #prod9 #para1, #prod #prod1 #para2, #prod1 #prod #para2, #prod1 #para2, #prod2 #prod1 #para2, #prod1 #prod2 #para2, #prod3 #prod1 #para2, #prod1 #prod3 #para2, #prod4 #prod1 #para2, #prod1 #prod4 #para2, #prod5 #prod1 #para2, #prod1 #prod5 #para2, #prod6 #prod1 #para2, #prod1 #prod6 #para2, #prod7 #prod1 #para2, #prod1 #prod7 #para2, #prod8 #prod1 #para2, #prod1 #prod8 #para2, #prod9 #prod1 #para2, #prod1 #prod9 #para2, #prod #prod1 #para3, #prod1 #prod #para3, #prod1 #para3, #prod2 #prod1 #para3, #prod1 #prod2 #para3, #prod3 #prod1 #para3, #prod1 #prod3 #para3, #prod4 #prod1 #para3, #prod1 #prod4 #para3, #prod5 #prod1 #para3, #prod1 #prod5 #para3, #prod6 #prod1 #para3, #prod1 #prod6 #para3, #prod7 #prod1 #para3, #prod1 #prod7 #para3, #prod8 #prod1 #para3, #prod1 #prod8 #para3, #prod9 #prod1 #para3, #prod1 #prod9 #para3, #prod #prod1 #para4, #prod1 #prod #para4, #prod1 #para4, #prod2 #prod1 #para4, #prod1 #prod2 #para4, #prod3 #prod1 #para4, #prod1 #prod3 #para4, #prod4 #prod1 #para4, #prod1 #prod4 #para4, #prod5 #prod1 #para4, #prod1 #prod5 #para4, #prod6 #prod1 #para4, #prod1 #prod6 #para4, #prod7 #prod1 #para4, #prod1 #prod7 #para4, #prod8 #prod1 #para4, #prod1 #prod8 #para4, #prod9 #prod1 #para4, #prod1 #prod9 #para4, #prod #prod1 #para5, #prod1 #prod #para5, #prod1 #para5, #prod2 #prod1 #para5, #prod1 #prod2 #para5, #prod3 #prod1 #para5, #prod1 #prod3 #para5, #prod4 #prod1 #para5, #prod1 #prod4 #para5, #prod5 #prod1 #para5, #prod1 #prod5 #para5, #prod6 #prod1 #para5, #prod1 #prod6 #para5, #prod7 #prod1 #para5, #prod1 #prod7 #para5, #prod8 #prod1 #para5, #prod1 #prod8 #para5, #prod9 #prod1 #para5, #prod1 #prod9 #para5, #prod #prod1 #para6, #prod1 #prod #para6, #prod1 #para6, #prod2 #prod1 #para6, #prod1 #prod2 #para6, #prod3 #prod1 #para6, #prod1 #prod3 #para6, #prod4 #prod1 #para6, #prod1 #prod4 #para6, #prod5 #prod1 #para6, #prod1 #prod5 #para6, #prod6 #prod1 #para6, #prod1 #prod6 #para6, #prod7 #prod1 #para6, #prod1 #prod7 #para6, #prod8 #prod1 #para6, #prod1 #prod8 #para6, #prod9 #prod1 #para6, #prod1 #prod9 #para6, #prod #prod1 #para7, #prod1 #prod #para7, #prod1 #para7, #prod2 #prod1 #para7, #prod1 #prod2 #para7, #prod3 #prod1 #para7, #prod1 #prod3 #para7, #prod4 #prod1 #para7, #prod1 #prod4 #para7, #prod5 #prod1 #para7, #prod1 #prod5 #para7, #prod6 #prod1 #para7, #prod1 #prod6 #para7, #prod7 #prod1 #para7, #prod1 #prod7 #para7, #prod8 #prod1 #para7, #prod1 #prod8 #para7, #prod9 #prod1 #para7, #prod1 #prod9 #para7, #prod #prod1 #para8, #prod1 #prod #para8, #prod1 #para8, #prod2 #prod1 #para8, #prod1 #prod2 #para8, #prod3 #prod1 #para8, #prod1 #prod3 #para8, #prod4 #prod1 #para8, #prod1 #prod4 #para8, #prod5 #prod1 #para8, #prod1 #prod5 #para8, #prod6 #prod1 #para8, #prod1 #prod6 #para8, #prod7 #prod1 #para8, #prod1 #prod7 #para8, #prod8 #prod1 #para8, #prod1 #prod8 #para8, #prod9 #prod1 #para8, #prod1 #prod9 #para8, #prod #prod1 #para9, #prod1 #prod #para9, #prod1 #para9, #prod2 #prod1 #para9, #prod1 #prod2 #para9, #prod3 #prod1 #para9, #prod1 #prod3 #para9, #prod4 #prod1 #para9, #prod1 #prod4 #para9, #prod5 #prod1 #para9, #prod1 #prod5 #para9, #prod6 #prod1 #para9, #prod1 #prod6 #para9, #prod7 #prod1 #para9, #prod1 #prod7 #para9, #prod8 #prod1 #para9, #prod1 #prod8 #para9, #prod9 #prod1 #para9, #prod1 #prod9 #para9, #prod #prod2 #para1, #prod2 #prod #para1, #prod1 #prod2 #para1, #prod2 #prod1 #para1, #prod2 #para1, #prod3 #prod2 #para1, #prod2 #prod3 #para1, #prod4 #prod2 #para1, #prod2 #prod4 #para1, #prod5 #prod2 #para1, #prod2 #prod5 #para1, #prod6 #prod2 #para1, #prod2 #prod6 #para1, #prod7 #prod2 #para1, #prod2 #prod7 #para1, #prod8 #prod2 #para1, #prod2 #prod8 #para1, #prod9 #prod2 #para1, #prod2 #prod9 #para1, #prod #prod2 #para2, #prod2 #prod #para2, #prod1 #prod2 #para2, #prod2 #prod1 #para2, #prod2 #para2, #prod3 #prod2 #para2, #prod2 #prod3 #para2, #prod4 #prod2 #para2, #prod2 #prod4 #para2, #prod5 #prod2 #para2, #prod2 #prod5 #para2, #prod6 #prod2 #para2, #prod2 #prod6 #para2, #prod7 #prod2 #para2, #prod2 #prod7 #para2, #prod8 #prod2 #para2, #prod2 #prod8 #para2, #prod9 #prod2 #para2, #prod2 #prod9 #para2, #prod #prod2 #para3, #prod2 #prod #para3, #prod1 #prod2 #para3, #prod2 #prod1 #para3, #prod2 #para3, #prod3 #prod2 #para3, #prod2 #prod3 #para3, #prod4 #prod2 #para3, #prod2 #prod4 #para3, #prod5 #prod2 #para3, #prod2 #prod5 #para3, #prod6 #prod2 #para3, #prod2 #prod6 #para3, #prod7 #prod2 #para3, #prod2 #prod7 #para3, #prod8 #prod2 #para3, #prod2 #prod8 #para3, #prod9 #prod2 #para3, #prod2 #prod9 #para3, #prod #prod2 #para4, #prod2 #prod #para4, #prod1 #prod2 #para4, #prod2 #prod1 #para4, #prod2 #para4, #prod3 #prod2 #para4, #prod2 #prod3 #para4, #prod4 #prod2 #para4, #prod2 #prod4 #para4, #prod5 #prod2 #para4, #prod2 #prod5 #para4, #prod6 #prod2 #para4, #prod2 #prod6 #para4, #prod7 #prod2 #para4, #prod2 #prod7 #para4, #prod8 #prod2 #para4, #prod2 #prod8 #para4, #prod9 #prod2 #para4, #prod2 #prod9 #para4, #prod #prod2 #para5, #prod2 #prod #para5, #prod1 #prod2 #para5, #prod2 #prod1 #para5, #prod2 #para5, #prod3 #prod2 #para5, #prod2 #prod3 #para5, #prod4 #prod2 #para5, #prod2 #prod4 #para5, #prod5 #prod2 #para5, #prod2 #prod5 #para5, #prod6 #prod2 #para5, #prod2 #prod6 #para5, #prod7 #prod2 #para5, #prod2 #prod7 #para5, #prod8 #prod2 #para5, #prod2 #prod8 #para5, #prod9 #prod2 #para5, #prod2 #prod9 #para5, #prod #prod2 #para6, #prod2 #prod #para6, #prod1 #prod2 #para6, #prod2 #prod1 #para6, #prod2 #para6, #prod3 #prod2 #para6, #prod2 #prod3 #para6, #prod4 #prod2 #para6, #prod2 #prod4 #para6, #prod5 #prod2 #para6, #prod2 #prod5 #para6, #prod6 #prod2 #para6, #prod2 #prod6 #para6, #prod7 #prod2 #para6, #prod2 #prod7 #para6, #prod8 #prod2 #para6, #prod2 #prod8 #para6, #prod9 #prod2 #para6, #prod2 #prod9 #para6, #prod #prod2 #para7, #prod2 #prod #para7, #prod1 #prod2 #para7, #prod2 #prod1 #para7, #prod2 #para7, #prod3 #prod2 #para7, #prod2 #prod3 #para7, #prod4 #prod2 #para7, #prod2 #prod4 #para7, #prod5 #prod2 #para7, #prod2 #prod5 #para7, #prod6 #prod2 #para7, #prod2 #prod6 #para7, #prod7 #prod2 #para7, #prod2 #prod7 #para7, #prod8 #prod2 #para7, #prod2 #prod8 #para7, #prod9 #prod2 #para7, #prod2 #prod9 #para7, #prod #prod2 #para8, #prod2 #prod #para8, #prod1 #prod2 #para8, #prod2 #prod1 #para8, #prod2 #para8, #prod3 #prod2 #para8, #prod2 #prod3 #para8, #prod4 #prod2 #para8, #prod2 #prod4 #para8, #prod5 #prod2 #para8, #prod2 #prod5 #para8, #prod6 #prod2 #para8, #prod2 #prod6 #para8, #prod7 #prod2 #para8, #prod2 #prod7 #para8, #prod8 #prod2 #para8, #prod2 #prod8 #para8, #prod9 #prod2 #para8, #prod2 #prod9 #para8, #prod #prod2 #para9, #prod2 #prod #para9, #prod1 #prod2 #para9, #prod2 #prod1 #para9, #prod2 #para9, #prod3 #prod2 #para9, #prod2 #prod3 #para9, #prod4 #prod2 #para9, #prod2 #prod4 #para9, #prod5 #prod2 #para9, #prod2 #prod5 #para9, #prod6 #prod2 #para9, #prod2 #prod6 #para9, #prod7 #prod2 #para9, #prod2 #prod7 #para9, #prod8 #prod2 #para9, #prod2 #prod8 #para9, #prod9 #prod2 #para9, #prod2 #prod9 #para9, #prod #prod3 #para1, #prod3 #prod #para1, #prod1 #prod3 #para1, #prod3 #prod1 #para1, #prod2 #prod3 #para1, #prod3 #prod2 #para1, #prod3 #para1, #prod4 #prod3 #para1, #prod3 #prod4 #para1, #prod5 #prod3 #para1, #prod3 #prod5 #para1, #prod6 #prod3 #para1, #prod3 #prod6 #para1, #prod7 #prod3 #para1, #prod3 #prod7 #para1, #prod8 #prod3 #para1, #prod3 #prod8 #para1, #prod9 #prod3 #para1, #prod3 #prod9 #para1, #prod #prod3 #para2, #prod3 #prod #para2, #prod1 #prod3 #para2, #prod3 #prod1 #para2, #prod2 #prod3 #para2, #prod3 #prod2 #para2, #prod3 #para2, #prod4 #prod3 #para2, #prod3 #prod4 #para2, #prod5 #prod3 #para2, #prod3 #prod5 #para2, #prod6 #prod3 #para2, #prod3 #prod6 #para2, #prod7 #prod3 #para2, #prod3 #prod7 #para2, #prod8 #prod3 #para2, #prod3 #prod8 #para2, #prod9 #prod3 #para2, #prod3 #prod9 #para2, #prod #prod3 #para3, #prod3 #prod #para3, #prod1 #prod3 #para3, #prod3 #prod1 #para3, #prod2 #prod3 #para3, #prod3 #prod2 #para3, #prod3 #para3, #prod4 #prod3 #para3, #prod3 #prod4 #para3, #prod5 #prod3 #para3, #prod3 #prod5 #para3, #prod6 #prod3 #para3, #prod3 #prod6 #para3, #prod7 #prod3 #para3, #prod3 #prod7 #para3, #prod8 #prod3 #para3, #prod3 #prod8 #para3, #prod9 #prod3 #para3, #prod3 #prod9 #para3, #prod #prod3 #para4, #prod3 #prod #para4, #prod1 #prod3 #para4, #prod3 #prod1 #para4, #prod2 #prod3 #para4, #prod3 #prod2 #para4, #prod3 #para4, #prod4 #prod3 #para4, #prod3 #prod4 #para4, #prod5 #prod3 #para4, #prod3 #prod5 #para4, #prod6 #prod3 #para4, #prod3 #prod6 #para4, #prod7 #prod3 #para4, #prod3 #prod7 #para4, #prod8 #prod3 #para4, #prod3 #prod8 #para4, #prod9 #prod3 #para4, #prod3 #prod9 #para4, #prod #prod3 #para5, #prod3 #prod #para5, #prod1 #prod3 #para5, #prod3 #prod1 #para5, #prod2 #prod3 #para5, #prod3 #prod2 #para5, #prod3 #para5, #prod4 #prod3 #para5, #prod3 #prod4 #para5, #prod5 #prod3 #para5, #prod3 #prod5 #para5, #prod6 #prod3 #para5, #prod3 #prod6 #para5, #prod7 #prod3 #para5, #prod3 #prod7 #para5, #prod8 #prod3 #para5, #prod3 #prod8 #para5, #prod9 #prod3 #para5, #prod3 #prod9 #para5, #prod #prod3 #para6, #prod3 #prod #para6, #prod1 #prod3 #para6, #prod3 #prod1 #para6, #prod2 #prod3 #para6, #prod3 #prod2 #para6, #prod3 #para6, #prod4 #prod3 #para6, #prod3 #prod4 #para6, #prod5 #prod3 #para6, #prod3 #prod5 #para6, #prod6 #prod3 #para6, #prod3 #prod6 #para6, #prod7 #prod3 #para6, #prod3 #prod7 #para6, #prod8 #prod3 #para6, #prod3 #prod8 #para6, #prod9 #prod3 #para6, #prod3 #prod9 #para6, #prod #prod3 #para7, #prod3 #prod #para7, #prod1 #prod3 #para7, #prod3 #prod1 #para7, #prod2 #prod3 #para7, #prod3 #prod2 #para7, #prod3 #para7, #prod4 #prod3 #para7, #prod3 #prod4 #para7, #prod5 #prod3 #para7, #prod3 #prod5 #para7, #prod6 #prod3 #para7, #prod3 #prod6 #para7, #prod7 #prod3 #para7, #prod3 #prod7 #para7, #prod8 #prod3 #para7, #prod3 #prod8 #para7, #prod9 #prod3 #para7, #prod3 #prod9 #para7, #prod #prod3 #para8, #prod3 #prod #para8, #prod1 #prod3 #para8, #prod3 #prod1 #para8, #prod2 #prod3 #para8, #prod3 #prod2 #para8, #prod3 #para8, #prod4 #prod3 #para8, #prod3 #prod4 #para8, #prod5 #prod3 #para8, #prod3 #prod5 #para8, #prod6 #prod3 #para8, #prod3 #prod6 #para8, #prod7 #prod3 #para8, #prod3 #prod7 #para8, #prod8 #prod3 #para8, #prod3 #prod8 #para8, #prod9 #prod3 #para8, #prod3 #prod9 #para8, #prod #prod3 #para9, #prod3 #prod #para9, #prod1 #prod3 #para9, #prod3 #prod1 #para9, #prod2 #prod3 #para9, #prod3 #prod2 #para9, #prod3 #para9, #prod4 #prod3 #para9, #prod3 #prod4 #para9, #prod5 #prod3 #para9, #prod3 #prod5 #para9, #prod6 #prod3 #para9, #prod3 #prod6 #para9, #prod7 #prod3 #para9, #prod3 #prod7 #para9, #prod8 #prod3 #para9, #prod3 #prod8 #para9, #prod9 #prod3 #para9, #prod3 #prod9 #para9, #prod #prod4 #para1, #prod4 #prod #para1, #prod1 #prod4 #para1, #prod4 #prod1 #para1, #prod2 #prod4 #para1, #prod4 #prod2 #para1, #prod3 #prod4 #para1, #prod4 #prod3 #para1, #prod4 #para1, #prod5 #prod4 #para1, #prod4 #prod5 #para1, #prod6 #prod4 #para1, #prod4 #prod6 #para1, #prod7 #prod4 #para1, #prod4 #prod7 #para1, #prod8 #prod4 #para1, #prod4 #prod8 #para1, #prod9 #prod4 #para1, #prod4 #prod9 #para1, #prod #prod4 #para2, #prod4 #prod #para2, #prod1 #prod4 #para2, #prod4 #prod1 #para2, #prod2 #prod4 #para2, #prod4 #prod2 #para2, #prod3 #prod4 #para2, #prod4 #prod3 #para2, #prod4 #para2, #prod5 #prod4 #para2, #prod4 #prod5 #para2, #prod6 #prod4 #para2, #prod4 #prod6 #para2, #prod7 #prod4 #para2, #prod4 #prod7 #para2, #prod8 #prod4 #para2, #prod4 #prod8 #para2, #prod9 #prod4 #para2, #prod4 #prod9 #para2, #prod #prod4 #para3, #prod4 #prod #para3, #prod1 #prod4 #para3, #prod4 #prod1 #para3, #prod2 #prod4 #para3, #prod4 #prod2 #para3, #prod3 #prod4 #para3, #prod4 #prod3 #para3, #prod4 #para3, #prod5 #prod4 #para3, #prod4 #prod5 #para3, #prod6 #prod4 #para3, #prod4 #prod6 #para3, #prod7 #prod4 #para3, #prod4 #prod7 #para3, #prod8 #prod4 #para3, #prod4 #prod8 #para3, #prod9 #prod4 #para3, #prod4 #prod9 #para3, #prod #prod4 #para4, #prod4 #prod #para4, #prod1 #prod4 #para4, #prod4 #prod1 #para4, #prod2 #prod4 #para4, #prod4 #prod2 #para4, #prod3 #prod4 #para4, #prod4 #prod3 #para4, #prod4 #para4, #prod5 #prod4 #para4, #prod4 #prod5 #para4, #prod6 #prod4 #para4, #prod4 #prod6 #para4, #prod7 #prod4 #para4, #prod4 #prod7 #para4, #prod8 #prod4 #para4, #prod4 #prod8 #para4, #prod9 #prod4 #para4, #prod4 #prod9 #para4, #prod #prod4 #para5, #prod4 #prod #para5, #prod1 #prod4 #para5, #prod4 #prod1 #para5, #prod2 #prod4 #para5, #prod4 #prod2 #para5, #prod3 #prod4 #para5, #prod4 #prod3 #para5, #prod4 #para5, #prod5 #prod4 #para5, #prod4 #prod5 #para5, #prod6 #prod4 #para5, #prod4 #prod6 #para5, #prod7 #prod4 #para5, #prod4 #prod7 #para5, #prod8 #prod4 #para5, #prod4 #prod8 #para5, #prod9 #prod4 #para5, #prod4 #prod9 #para5, #prod #prod4 #para6, #prod4 #prod #para6, #prod1 #prod4 #para6, #prod4 #prod1 #para6, #prod2 #prod4 #para6, #prod4 #prod2 #para6, #prod3 #prod4 #para6, #prod4 #prod3 #para6, #prod4 #para6, #prod5 #prod4 #para6, #prod4 #prod5 #para6, #prod6 #prod4 #para6, #prod4 #prod6 #para6, #prod7 #prod4 #para6, #prod4 #prod7 #para6, #prod8 #prod4 #para6, #prod4 #prod8 #para6, #prod9 #prod4 #para6, #prod4 #prod9 #para6, #prod #prod4 #para7, #prod4 #prod #para7, #prod1 #prod4 #para7, #prod4 #prod1 #para7, #prod2 #prod4 #para7, #prod4 #prod2 #para7, #prod3 #prod4 #para7, #prod4 #prod3 #para7, #prod4 #para7, #prod5 #prod4 #para7, #prod4 #prod5 #para7, #prod6 #prod4 #para7, #prod4 #prod6 #para7, #prod7 #prod4 #para7, #prod4 #prod7 #para7, #prod8 #prod4 #para7, #prod4 #prod8 #para7, #prod9 #prod4 #para7, #prod4 #prod9 #para7, #prod #prod4 #para8, #prod4 #prod #para8, #prod1 #prod4 #para8, #prod4 #prod1 #para8, #prod2 #prod4 #para8, #prod4 #prod2 #para8, #prod3 #prod4 #para8, #prod4 #prod3 #para8, #prod4 #para8, #prod5 #prod4 #para8, #prod4 #prod5 #para8, #prod6 #prod4 #para8, #prod4 #prod6 #para8, #prod7 #prod4 #para8, #prod4 #prod7 #para8, #prod8 #prod4 #para8, #prod4 #prod8 #para8, #prod9 #prod4 #para8, #prod4 #prod9 #para8, #prod #prod4 #para9, #prod4 #prod #para9, #prod1 #prod4 #para9, #prod4 #prod1 #para9, #prod2 #prod4 #para9, #prod4 #prod2 #para9, #prod3 #prod4 #para9, #prod4 #prod3 #para9, #prod4 #para9, #prod5 #prod4 #para9, #prod4 #prod5 #para9, #prod6 #prod4 #para9, #prod4 #prod6 #para9, #prod7 #prod4 #para9, #prod4 #prod7 #para9, #prod8 #prod4 #para9, #prod4 #prod8 #para9, #prod9 #prod4 #para9, #prod4 #prod9 #para9, #prod #prod5 #para1, #prod5 #prod #para1, #prod1 #prod5 #para1, #prod5 #prod1 #para1, #prod2 #prod5 #para1, #prod5 #prod2 #para1, #prod3 #prod5 #para1, #prod5 #prod3 #para1, #prod4 #prod5 #para1, #prod5 #prod4 #para1, #prod5 #para1, #prod6 #prod5 #para1, #prod5 #prod6 #para1, #prod7 #prod5 #para1, #prod5 #prod7 #para1, #prod8 #prod5 #para1, #prod5 #prod8 #para1, #prod9 #prod5 #para1, #prod5 #prod9 #para1, #prod #prod5 #para2, #prod5 #prod #para2, #prod1 #prod5 #para2, #prod5 #prod1 #para2, #prod2 #prod5 #para2, #prod5 #prod2 #para2, #prod3 #prod5 #para2, #prod5 #prod3 #para2, #prod4 #prod5 #para2, #prod5 #prod4 #para2, #prod5 #para2, #prod6 #prod5 #para2, #prod5 #prod6 #para2, #prod7 #prod5 #para2, #prod5 #prod7 #para2, #prod8 #prod5 #para2, #prod5 #prod8 #para2, #prod9 #prod5 #para2, #prod5 #prod9 #para2, #prod #prod5 #para3, #prod5 #prod #para3, #prod1 #prod5 #para3, #prod5 #prod1 #para3, #prod2 #prod5 #para3, #prod5 #prod2 #para3, #prod3 #prod5 #para3, #prod5 #prod3 #para3, #prod4 #prod5 #para3, #prod5 #prod4 #para3, #prod5 #para3, #prod6 #prod5 #para3, #prod5 #prod6 #para3, #prod7 #prod5 #para3, #prod5 #prod7 #para3, #prod8 #prod5 #para3, #prod5 #prod8 #para3, #prod9 #prod5 #para3, #prod5 #prod9 #para3, #prod #prod5 #para4, #prod5 #prod #para4, #prod1 #prod5 #para4, #prod5 #prod1 #para4, #prod2 #prod5 #para4, #prod5 #prod2 #para4, #prod3 #prod5 #para4, #prod5 #prod3 #para4, #prod4 #prod5 #para4, #prod5 #prod4 #para4, #prod5 #para4, #prod6 #prod5 #para4, #prod5 #prod6 #para4, #prod7 #prod5 #para4, #prod5 #prod7 #para4, #prod8 #prod5 #para4, #prod5 #prod8 #para4, #prod9 #prod5 #para4, #prod5 #prod9 #para4, #prod #prod5 #para5, #prod5 #prod #para5, #prod1 #prod5 #para5, #prod5 #prod1 #para5, #prod2 #prod5 #para5, #prod5 #prod2 #para5, #prod3 #prod5 #para5, #prod5 #prod3 #para5, #prod4 #prod5 #para5, #prod5 #prod4 #para5, #prod5 #para5, #prod6 #prod5 #para5, #prod5 #prod6 #para5, #prod7 #prod5 #para5, #prod5 #prod7 #para5, #prod8 #prod5 #para5, #prod5 #prod8 #para5, #prod9 #prod5 #para5, #prod5 #prod9 #para5, #prod #prod5 #para6, #prod5 #prod #para6, #prod1 #prod5 #para6, #prod5 #prod1 #para6, #prod2 #prod5 #para6, #prod5 #prod2 #para6, #prod3 #prod5 #para6, #prod5 #prod3 #para6, #prod4 #prod5 #para6, #prod5 #prod4 #para6, #prod5 #para6, #prod6 #prod5 #para6, #prod5 #prod6 #para6, #prod7 #prod5 #para6, #prod5 #prod7 #para6, #prod8 #prod5 #para6, #prod5 #prod8 #para6, #prod9 #prod5 #para6, #prod5 #prod9 #para6, #prod #prod5 #para7, #prod5 #prod #para7, #prod1 #prod5 #para7, #prod5 #prod1 #para7, #prod2 #prod5 #para7, #prod5 #prod2 #para7, #prod3 #prod5 #para7, #prod5 #prod3 #para7, #prod4 #prod5 #para7, #prod5 #prod4 #para7, #prod5 #para7, #prod6 #prod5 #para7, #prod5 #prod6 #para7, #prod7 #prod5 #para7, #prod5 #prod7 #para7, #prod8 #prod5 #para7, #prod5 #prod8 #para7, #prod9 #prod5 #para7, #prod5 #prod9 #para7, #prod #prod5 #para8, #prod5 #prod #para8, #prod1 #prod5 #para8, #prod5 #prod1 #para8, #prod2 #prod5 #para8, #prod5 #prod2 #para8, #prod3 #prod5 #para8, #prod5 #prod3 #para8, #prod4 #prod5 #para8, #prod5 #prod4 #para8, #prod5 #para8, #prod6 #prod5 #para8, #prod5 #prod6 #para8, #prod7 #prod5 #para8, #prod5 #prod7 #para8, #prod8 #prod5 #para8, #prod5 #prod8 #para8, #prod9 #prod5 #para8, #prod5 #prod9 #para8, #prod #prod5 #para9, #prod5 #prod #para9, #prod1 #prod5 #para9, #prod5 #prod1 #para9, #prod2 #prod5 #para9, #prod5 #prod2 #para9, #prod3 #prod5 #para9, #prod5 #prod3 #para9, #prod4 #prod5 #para9, #prod5 #prod4 #para9, #prod5 #para9, #prod6 #prod5 #para9, #prod5 #prod6 #para9, #prod7 #prod5 #para9, #prod5 #prod7 #para9, #prod8 #prod5 #para9, #prod5 #prod8 #para9, #prod9 #prod5 #para9, #prod5 #prod9 #para9, #prod #prod6 #para1, #prod6 #prod #para1, #prod1 #prod6 #para1, #prod6 #prod1 #para1, #prod2 #prod6 #para1, #prod6 #prod2 #para1, #prod3 #prod6 #para1, #prod6 #prod3 #para1, #prod4 #prod6 #para1, #prod6 #prod4 #para1, #prod5 #prod6 #para1, #prod6 #prod5 #para1, #prod6 #para1, #prod7 #prod6 #para1, #prod6 #prod7 #para1, #prod8 #prod6 #para1, #prod6 #prod8 #para1, #prod9 #prod6 #para1, #prod6 #prod9 #para1, #prod #prod6 #para2, #prod6 #prod #para2, #prod1 #prod6 #para2, #prod6 #prod1 #para2, #prod2 #prod6 #para2, #prod6 #prod2 #para2, #prod3 #prod6 #para2, #prod6 #prod3 #para2, #prod4 #prod6 #para2, #prod6 #prod4 #para2, #prod5 #prod6 #para2, #prod6 #prod5 #para2, #prod6 #para2, #prod7 #prod6 #para2, #prod6 #prod7 #para2, #prod8 #prod6 #para2, #prod6 #prod8 #para2, #prod9 #prod6 #para2, #prod6 #prod9 #para2, #prod #prod6 #para3, #prod6 #prod #para3, #prod1 #prod6 #para3, #prod6 #prod1 #para3, #prod2 #prod6 #para3, #prod6 #prod2 #para3, #prod3 #prod6 #para3, #prod6 #prod3 #para3, #prod4 #prod6 #para3, #prod6 #prod4 #para3, #prod5 #prod6 #para3, #prod6 #prod5 #para3, #prod6 #para3, #prod7 #prod6 #para3, #prod6 #prod7 #para3, #prod8 #prod6 #para3, #prod6 #prod8 #para3, #prod9 #prod6 #para3, #prod6 #prod9 #para3, #prod #prod6 #para4, #prod6 #prod #para4, #prod1 #prod6 #para4, #prod6 #prod1 #para4, #prod2 #prod6 #para4, #prod6 #prod2 #para4, #prod3 #prod6 #para4, #prod6 #prod3 #para4, #prod4 #prod6 #para4, #prod6 #prod4 #para4, #prod5 #prod6 #para4, #prod6 #prod5 #para4, #prod6 #para4, #prod7 #prod6 #para4, #prod6 #prod7 #para4, #prod8 #prod6 #para4, #prod6 #prod8 #para4, #prod9 #prod6 #para4, #prod6 #prod9 #para4, #prod #prod6 #para5, #prod6 #prod #para5, #prod1 #prod6 #para5, #prod6 #prod1 #para5, #prod2 #prod6 #para5, #prod6 #prod2 #para5, #prod3 #prod6 #para5, #prod6 #prod3 #para5, #prod4 #prod6 #para5, #prod6 #prod4 #para5, #prod5 #prod6 #para5, #prod6 #prod5 #para5, #prod6 #para5, #prod7 #prod6 #para5, #prod6 #prod7 #para5, #prod8 #prod6 #para5, #prod6 #prod8 #para5, #prod9 #prod6 #para5, #prod6 #prod9 #para5, #prod #prod6 #para6, #prod6 #prod #para6, #prod1 #prod6 #para6, #prod6 #prod1 #para6, #prod2 #prod6 #para6, #prod6 #prod2 #para6, #prod3 #prod6 #para6, #prod6 #prod3 #para6, #prod4 #prod6 #para6, #prod6 #prod4 #para6, #prod5 #prod6 #para6, #prod6 #prod5 #para6, #prod6 #para6, #prod7 #prod6 #para6, #prod6 #prod7 #para6, #prod8 #prod6 #para6, #prod6 #prod8 #para6, #prod9 #prod6 #para6, #prod6 #prod9 #para6, #prod #prod6 #para7, #prod6 #prod #para7, #prod1 #prod6 #para7, #prod6 #prod1 #para7, #prod2 #prod6 #para7, #prod6 #prod2 #para7, #prod3 #prod6 #para7, #prod6 #prod3 #para7, #prod4 #prod6 #para7, #prod6 #prod4 #para7, #prod5 #prod6 #para7, #prod6 #prod5 #para7, #prod6 #para7, #prod7 #prod6 #para7, #prod6 #prod7 #para7, #prod8 #prod6 #para7, #prod6 #prod8 #para7, #prod9 #prod6 #para7, #prod6 #prod9 #para7, #prod #prod6 #para8, #prod6 #prod #para8, #prod1 #prod6 #para8, #prod6 #prod1 #para8, #prod2 #prod6 #para8, #prod6 #prod2 #para8, #prod3 #prod6 #para8, #prod6 #prod3 #para8, #prod4 #prod6 #para8, #prod6 #prod4 #para8, #prod5 #prod6 #para8, #prod6 #prod5 #para8, #prod6 #para8, #prod7 #prod6 #para8, #prod6 #prod7 #para8, #prod8 #prod6 #para8, #prod6 #prod8 #para8, #prod9 #prod6 #para8, #prod6 #prod9 #para8, #prod #prod6 #para9, #prod6 #prod #para9, #prod1 #prod6 #para9, #prod6 #prod1 #para9, #prod2 #prod6 #para9, #prod6 #prod2 #para9, #prod3 #prod6 #para9, #prod6 #prod3 #para9, #prod4 #prod6 #para9, #prod6 #prod4 #para9, #prod5 #prod6 #para9, #prod6 #prod5 #para9, #prod6 #para9, #prod7 #prod6 #para9, #prod6 #prod7 #para9, #prod8 #prod6 #para9, #prod6 #prod8 #para9, #prod9 #prod6 #para9, #prod6 #prod9 #para9, #prod #prod7 #para1, #prod7 #prod #para1, #prod1 #prod7 #para1, #prod7 #prod1 #para1, #prod2 #prod7 #para1, #prod7 #prod2 #para1, #prod3 #prod7 #para1, #prod7 #prod3 #para1, #prod4 #prod7 #para1, #prod7 #prod4 #para1, #prod5 #prod7 #para1, #prod7 #prod5 #para1, #prod6 #prod7 #para1, #prod7 #prod6 #para1, #prod7 #para1, #prod8 #prod7 #para1, #prod7 #prod8 #para1, #prod9 #prod7 #para1, #prod7 #prod9 #para1, #prod #prod7 #para2, #prod7 #prod #para2, #prod1 #prod7 #para2, #prod7 #prod1 #para2, #prod2 #prod7 #para2, #prod7 #prod2 #para2, #prod3 #prod7 #para2, #prod7 #prod3 #para2, #prod4 #prod7 #para2, #prod7 #prod4 #para2, #prod5 #prod7 #para2, #prod7 #prod5 #para2, #prod6 #prod7 #para2, #prod7 #prod6 #para2, #prod7 #para2, #prod8 #prod7 #para2, #prod7 #prod8 #para2, #prod9 #prod7 #para2, #prod7 #prod9 #para2, #prod #prod7 #para3, #prod7 #prod #para3, #prod1 #prod7 #para3, #prod7 #prod1 #para3, #prod2 #prod7 #para3, #prod7 #prod2 #para3, #prod3 #prod7 #para3, #prod7 #prod3 #para3, #prod4 #prod7 #para3, #prod7 #prod4 #para3, #prod5 #prod7 #para3, #prod7 #prod5 #para3, #prod6 #prod7 #para3, #prod7 #prod6 #para3, #prod7 #para3, #prod8 #prod7 #para3, #prod7 #prod8 #para3, #prod9 #prod7 #para3, #prod7 #prod9 #para3, #prod #prod7 #para4, #prod7 #prod #para4, #prod1 #prod7 #para4, #prod7 #prod1 #para4, #prod2 #prod7 #para4, #prod7 #prod2 #para4, #prod3 #prod7 #para4, #prod7 #prod3 #para4, #prod4 #prod7 #para4, #prod7 #prod4 #para4, #prod5 #prod7 #para4, #prod7 #prod5 #para4, #prod6 #prod7 #para4, #prod7 #prod6 #para4, #prod7 #para4, #prod8 #prod7 #para4, #prod7 #prod8 #para4, #prod9 #prod7 #para4, #prod7 #prod9 #para4, #prod #prod7 #para5, #prod7 #prod #para5, #prod1 #prod7 #para5, #prod7 #prod1 #para5, #prod2 #prod7 #para5, #prod7 #prod2 #para5, #prod3 #prod7 #para5, #prod7 #prod3 #para5, #prod4 #prod7 #para5, #prod7 #prod4 #para5, #prod5 #prod7 #para5, #prod7 #prod5 #para5, #prod6 #prod7 #para5, #prod7 #prod6 #para5, #prod7 #para5, #prod8 #prod7 #para5, #prod7 #prod8 #para5, #prod9 #prod7 #para5, #prod7 #prod9 #para5, #prod #prod7 #para6, #prod7 #prod #para6, #prod1 #prod7 #para6, #prod7 #prod1 #para6, #prod2 #prod7 #para6, #prod7 #prod2 #para6, #prod3 #prod7 #para6, #prod7 #prod3 #para6, #prod4 #prod7 #para6, #prod7 #prod4 #para6, #prod5 #prod7 #para6, #prod7 #prod5 #para6, #prod6 #prod7 #para6, #prod7 #prod6 #para6, #prod7 #para6, #prod8 #prod7 #para6, #prod7 #prod8 #para6, #prod9 #prod7 #para6, #prod7 #prod9 #para6, #prod #prod7 #para7, #prod7 #prod #para7, #prod1 #prod7 #para7, #prod7 #prod1 #para7, #prod2 #prod7 #para7, #prod7 #prod2 #para7, #prod3 #prod7 #para7, #prod7 #prod3 #para7, #prod4 #prod7 #para7, #prod7 #prod4 #para7, #prod5 #prod7 #para7, #prod7 #prod5 #para7, #prod6 #prod7 #para7, #prod7 #prod6 #para7, #prod7 #para7, #prod8 #prod7 #para7, #prod7 #prod8 #para7, #prod9 #prod7 #para7, #prod7 #prod9 #para7, #prod #prod7 #para8, #prod7 #prod #para8, #prod1 #prod7 #para8, #prod7 #prod1 #para8, #prod2 #prod7 #para8, #prod7 #prod2 #para8, #prod3 #prod7 #para8, #prod7 #prod3 #para8, #prod4 #prod7 #para8, #prod7 #prod4 #para8, #prod5 #prod7 #para8, #prod7 #prod5 #para8, #prod6 #prod7 #para8, #prod7 #prod6 #para8, #prod7 #para8, #prod8 #prod7 #para8, #prod7 #prod8 #para8, #prod9 #prod7 #para8, #prod7 #prod9 #para8, #prod #prod7 #para9, #prod7 #prod #para9, #prod1 #prod7 #para9, #prod7 #prod1 #para9, #prod2 #prod7 #para9, #prod7 #prod2 #para9, #prod3 #prod7 #para9, #prod7 #prod3 #para9, #prod4 #prod7 #para9, #prod7 #prod4 #para9, #prod5 #prod7 #para9, #prod7 #prod5 #para9, #prod6 #prod7 #para9, #prod7 #prod6 #para9, #prod7 #para9, #prod8 #prod7 #para9, #prod7 #prod8 #para9, #prod9 #prod7 #para9, #prod7 #prod9 #para9, #prod #prod8 #para1, #prod8 #prod #para1, #prod1 #prod8 #para1, #prod8 #prod1 #para1, #prod2 #prod8 #para1, #prod8 #prod2 #para1, #prod3 #prod8 #para1, #prod8 #prod3 #para1, #prod4 #prod8 #para1, #prod8 #prod4 #para1, #prod5 #prod8 #para1, #prod8 #prod5 #para1, #prod6 #prod8 #para1, #prod8 #prod6 #para1, #prod7 #prod8 #para1, #prod8 #prod7 #para1, #prod8 #para1, #prod9 #prod8 #para1, #prod8 #prod9 #para1, #prod #prod8 #para2, #prod8 #prod #para2, #prod1 #prod8 #para2, #prod8 #prod1 #para2, #prod2 #prod8 #para2, #prod8 #prod2 #para2, #prod3 #prod8 #para2, #prod8 #prod3 #para2, #prod4 #prod8 #para2, #prod8 #prod4 #para2, #prod5 #prod8 #para2, #prod8 #prod5 #para2, #prod6 #prod8 #para2, #prod8 #prod6 #para2, #prod7 #prod8 #para2, #prod8 #prod7 #para2, #prod8 #para2, #prod9 #prod8 #para2, #prod8 #prod9 #para2, #prod #prod8 #para3, #prod8 #prod #para3, #prod1 #prod8 #para3, #prod8 #prod1 #para3, #prod2 #prod8 #para3, #prod8 #prod2 #para3, #prod3 #prod8 #para3, #prod8 #prod3 #para3, #prod4 #prod8 #para3, #prod8 #prod4 #para3, #prod5 #prod8 #para3, #prod8 #prod5 #para3, #prod6 #prod8 #para3, #prod8 #prod6 #para3, #prod7 #prod8 #para3, #prod8 #prod7 #para3, #prod8 #para3, #prod9 #prod8 #para3, #prod8 #prod9 #para3, #prod #prod8 #para4, #prod8 #prod #para4, #prod1 #prod8 #para4, #prod8 #prod1 #para4, #prod2 #prod8 #para4, #prod8 #prod2 #para4, #prod3 #prod8 #para4, #prod8 #prod3 #para4, #prod4 #prod8 #para4, #prod8 #prod4 #para4, #prod5 #prod8 #para4, #prod8 #prod5 #para4, #prod6 #prod8 #para4, #prod8 #prod6 #para4, #prod7 #prod8 #para4, #prod8 #prod7 #para4, #prod8 #para4, #prod9 #prod8 #para4, #prod8 #prod9 #para4, #prod #prod8 #para5, #prod8 #prod #para5, #prod1 #prod8 #para5, #prod8 #prod1 #para5, #prod2 #prod8 #para5, #prod8 #prod2 #para5, #prod3 #prod8 #para5, #prod8 #prod3 #para5, #prod4 #prod8 #para5, #prod8 #prod4 #para5, #prod5 #prod8 #para5, #prod8 #prod5 #para5, #prod6 #prod8 #para5, #prod8 #prod6 #para5, #prod7 #prod8 #para5, #prod8 #prod7 #para5, #prod8 #para5, #prod9 #prod8 #para5, #prod8 #prod9 #para5, #prod #prod8 #para6, #prod8 #prod #para6, #prod1 #prod8 #para6, #prod8 #prod1 #para6, #prod2 #prod8 #para6, #prod8 #prod2 #para6, #prod3 #prod8 #para6, #prod8 #prod3 #para6, #prod4 #prod8 #para6, #prod8 #prod4 #para6, #prod5 #prod8 #para6, #prod8 #prod5 #para6, #prod6 #prod8 #para6, #prod8 #prod6 #para6, #prod7 #prod8 #para6, #prod8 #prod7 #para6, #prod8 #para6, #prod9 #prod8 #para6, #prod8 #prod9 #para6, #prod #prod8 #para7, #prod8 #prod #para7, #prod1 #prod8 #para7, #prod8 #prod1 #para7, #prod2 #prod8 #para7, #prod8 #prod2 #para7, #prod3 #prod8 #para7, #prod8 #prod3 #para7, #prod4 #prod8 #para7, #prod8 #prod4 #para7, #prod5 #prod8 #para7, #prod8 #prod5 #para7, #prod6 #prod8 #para7, #prod8 #prod6 #para7, #prod7 #prod8 #para7, #prod8 #prod7 #para7, #prod8 #para7, #prod9 #prod8 #para7, #prod8 #prod9 #para7, #prod #prod8 #para8, #prod8 #prod #para8, #prod1 #prod8 #para8, #prod8 #prod1 #para8, #prod2 #prod8 #para8, #prod8 #prod2 #para8, #prod3 #prod8 #para8, #prod8 #prod3 #para8, #prod4 #prod8 #para8, #prod8 #prod4 #para8, #prod5 #prod8 #para8, #prod8 #prod5 #para8, #prod6 #prod8 #para8, #prod8 #prod6 #para8, #prod7 #prod8 #para8, #prod8 #prod7 #para8, #prod8 #para8, #prod9 #prod8 #para8, #prod8 #prod9 #para8, #prod #prod8 #para9, #prod8 #prod #para9, #prod1 #prod8 #para9, #prod8 #prod1 #para9, #prod2 #prod8 #para9, #prod8 #prod2 #para9, #prod3 #prod8 #para9, #prod8 #prod3 #para9, #prod4 #prod8 #para9, #prod8 #prod4 #para9, #prod5 #prod8 #para9, #prod8 #prod5 #para9, #prod6 #prod8 #para9, #prod8 #prod6 #para9, #prod7 #prod8 #para9, #prod8 #prod7 #para9, #prod8 #para9, #prod9 #prod8 #para9, #prod8 #prod9 #para9, #prod #prod9 #para1, #prod9 #prod #para1, #prod1 #prod9 #para1, #prod9 #prod1 #para1, #prod2 #prod9 #para1, #prod9 #prod2 #para1, #prod3 #prod9 #para1, #prod9 #prod3 #para1, #prod4 #prod9 #para1, #prod9 #prod4 #para1, #prod5 #prod9 #para1, #prod9 #prod5 #para1, #prod6 #prod9 #para1, #prod9 #prod6 #para1, #prod7 #prod9 #para1, #prod9 #prod7 #para1, #prod8 #prod9 #para1, #prod9 #prod8 #para1, #prod9 #para1, #prod #prod9 #para2, #prod9 #prod #para2, #prod1 #prod9 #para2, #prod9 #prod1 #para2, #prod2 #prod9 #para2, #prod9 #prod2 #para2, #prod3 #prod9 #para2, #prod9 #prod3 #para2, #prod4 #prod9 #para2, #prod9 #prod4 #para2, #prod5 #prod9 #para2, #prod9 #prod5 #para2, #prod6 #prod9 #para2, #prod9 #prod6 #para2, #prod7 #prod9 #para2, #prod9 #prod7 #para2, #prod8 #prod9 #para2, #prod9 #prod8 #para2, #prod9 #para2, #prod #prod9 #para3, #prod9 #prod #para3, #prod1 #prod9 #para3, #prod9 #prod1 #para3, #prod2 #prod9 #para3, #prod9 #prod2 #para3, #prod3 #prod9 #para3, #prod9 #prod3 #para3, #prod4 #prod9 #para3, #prod9 #prod4 #para3, #prod5 #prod9 #para3, #prod9 #prod5 #para3, #prod6 #prod9 #para3, #prod9 #prod6 #para3, #prod7 #prod9 #para3, #prod9 #prod7 #para3, #prod8 #prod9 #para3, #prod9 #prod8 #para3, #prod9 #para3, #prod #prod9 #para4, #prod9 #prod #para4, #prod1 #prod9 #para4, #prod9 #prod1 #para4, #prod2 #prod9 #para4, #prod9 #prod2 #para4, #prod3 #prod9 #para4, #prod9 #prod3 #para4, #prod4 #prod9 #para4, #prod9 #prod4 #para4, #prod5 #prod9 #para4, #prod9 #prod5 #para4, #prod6 #prod9 #para4, #prod9 #prod6 #para4, #prod7 #prod9 #para4, #prod9 #prod7 #para4, #prod8 #prod9 #para4, #prod9 #prod8 #para4, #prod9 #para4, #prod #prod9 #para5, #prod9 #prod #para5, #prod1 #prod9 #para5, #prod9 #prod1 #para5, #prod2 #prod9 #para5, #prod9 #prod2 #para5, #prod3 #prod9 #para5, #prod9 #prod3 #para5, #prod4 #prod9 #para5, #prod9 #prod4 #para5, #prod5 #prod9 #para5, #prod9 #prod5 #para5, #prod6 #prod9 #para5, #prod9 #prod6 #para5, #prod7 #prod9 #para5, #prod9 #prod7 #para5, #prod8 #prod9 #para5, #prod9 #prod8 #para5, #prod9 #para5, #prod #prod9 #para6, #prod9 #prod #para6, #prod1 #prod9 #para6, #prod9 #prod1 #para6, #prod2 #prod9 #para6, #prod9 #prod2 #para6, #prod3 #prod9 #para6, #prod9 #prod3 #para6, #prod4 #prod9 #para6, #prod9 #prod4 #para6, #prod5 #prod9 #para6, #prod9 #prod5 #para6, #prod6 #prod9 #para6, #prod9 #prod6 #para6, #prod7 #prod9 #para6, #prod9 #prod7 #para6, #prod8 #prod9 #para6, #prod9 #prod8 #para6, #prod9 #para6, #prod #prod9 #para7, #prod9 #prod #para7, #prod1 #prod9 #para7, #prod9 #prod1 #para7, #prod2 #prod9 #para7, #prod9 #prod2 #para7, #prod3 #prod9 #para7, #prod9 #prod3 #para7, #prod4 #prod9 #para7, #prod9 #prod4 #para7, #prod5 #prod9 #para7, #prod9 #prod5 #para7, #prod6 #prod9 #para7, #prod9 #prod6 #para7, #prod7 #prod9 #para7, #prod9 #prod7 #para7, #prod8 #prod9 #para7, #prod9 #prod8 #para7, #prod9 #para7, #prod #prod9 #para8, #prod9 #prod #para8, #prod1 #prod9 #para8, #prod9 #prod1 #para8, #prod2 #prod9 #para8, #prod9 #prod2 #para8, #prod3 #prod9 #para8, #prod9 #prod3 #para8, #prod4 #prod9 #para8, #prod9 #prod4 #para8, #prod5 #prod9 #para8, #prod9 #prod5 #para8, #prod6 #prod9 #para8, #prod9 #prod6 #para8, #prod7 #prod9 #para8, #prod9 #prod7 #para8, #prod8 #prod9 #para8, #prod9 #prod8 #para8, #prod9 #para8, #prod #prod9 #para9, #prod9 #prod #para9, #prod1 #prod9 #para9, #prod9 #prod1 #para9, #prod2 #prod9 #para9, #prod9 #prod2 #para9, #prod3 #prod9 #para9, #prod9 #prod3 #para9, #prod4 #prod9 #para9, #prod9 #prod4 #para9, #prod5 #prod9 #para9, #prod9 #prod5 #para9, #prod6 #prod9 #para9, #prod9 #prod6 #para9, #prod7 #prod9 #para9, #prod9 #prod7 #para9, #prod8 #prod9 #para9, #prod9 #prod8 #para9, #prod9 #para9 {
+    border: px solid #000000;
+    margin-top: 1%;
+    height: auto;
+    color: white;
+    font-weight: normal; }
+  #prod #ch, #prod1 #ch, #prod2 #ch, #prod3 #ch, #prod4 #ch, #prod5 #ch, #prod6 #ch, #prod7 #ch, #prod8 #ch, #prod9 #ch {
+    display: none; }
+  #prod #more_cont, #prod1 #more_cont, #prod2 #more_cont, #prod3 #more_cont, #prod4 #more_cont, #prod5 #more_cont, #prod6 #more_cont, #prod7 #more_cont, #prod8 #more_cont, #prod9 #more_cont {
+    display: none; }
+  #prod #more, #prod1 #more, #prod2 #more, #prod3 #more, #prod4 #more, #prod5 #more, #prod6 #more, #prod7 #more, #prod8 #more, #prod9 #more, #prod #less, #prod1 #less, #prod2 #less, #prod3 #less, #prod4 #less, #prod5 #less, #prod6 #less, #prod7 #less, #prod8 #less, #prod9 #less {
+    display: inline-block;
+    margin-top: 2%; }
+  #prod #ch:checked ~ #more_cont, #prod1 #ch:checked ~ #more_cont, #prod2 #ch:checked ~ #more_cont, #prod3 #ch:checked ~ #more_cont, #prod4 #ch:checked ~ #more_cont, #prod5 #ch:checked ~ #more_cont, #prod6 #ch:checked ~ #more_cont, #prod7 #ch:checked ~ #more_cont, #prod8 #ch:checked ~ #more_cont, #prod9 #ch:checked ~ #more_cont {
+    display: block; }
+  #prod #ch:checked ~ #more, #prod1 #ch:checked ~ #more, #prod2 #ch:checked ~ #more, #prod3 #ch:checked ~ #more, #prod4 #ch:checked ~ #more, #prod5 #ch:checked ~ #more, #prod6 #ch:checked ~ #more, #prod7 #ch:checked ~ #more, #prod8 #ch:checked ~ #more, #prod9 #ch:checked ~ #more {
+    display: none; }
+
+#prod1 #ch1, #prod1 #ch2, #prod1 #ch3, #prod1 #ch4, #prod1 #ch5, #prod1 #ch6, #prod1 #ch7, #prod1 #ch8, #prod1 #ch9, #prod2 #ch1, #prod2 #ch2, #prod2 #ch3, #prod2 #ch4, #prod2 #ch5, #prod2 #ch6, #prod2 #ch7, #prod2 #ch8, #prod2 #ch9, #prod3 #ch1, #prod3 #ch2, #prod3 #ch3, #prod3 #ch4, #prod3 #ch5, #prod3 #ch6, #prod3 #ch7, #prod3 #ch8, #prod3 #ch9, #prod4 #ch1, #prod4 #ch2, #prod4 #ch3, #prod4 #ch4, #prod4 #ch5, #prod4 #ch6, #prod4 #ch7, #prod4 #ch8, #prod4 #ch9, #prod5 #ch1, #prod5 #ch2, #prod5 #ch3, #prod5 #ch4, #prod5 #ch5, #prod5 #ch6, #prod5 #ch7, #prod5 #ch8, #prod5 #ch9, #prod6 #ch1, #prod6 #ch2, #prod6 #ch3, #prod6 #ch4, #prod6 #ch5, #prod6 #ch6, #prod6 #ch7, #prod6 #ch8, #prod6 #ch9, #prod7 #ch1, #prod7 #ch2, #prod7 #ch3, #prod7 #ch4, #prod7 #ch5, #prod7 #ch6, #prod7 #ch7, #prod7 #ch8, #prod7 #ch9, #prod8 #ch1, #prod8 #ch2, #prod8 #ch3, #prod8 #ch4, #prod8 #ch5, #prod8 #ch6, #prod8 #ch7, #prod8 #ch8, #prod8 #ch9, #prod9 #ch1, #prod9 #ch2, #prod9 #ch3, #prod9 #ch4, #prod9 #ch5, #prod9 #ch6, #prod9 #ch7, #prod9 #ch8, #prod9 #ch9 {
+  display: none; }
+#prod1 #more_cont1, #prod1 #more_cont2, #prod1 #more_cont3, #prod1 #more_cont4, #prod1 #more_cont5, #prod1 #more_cont6, #prod1 #more_cont7, #prod1 #more_cont8, #prod1 #more_cont9, #prod2 #more_cont1, #prod2 #more_cont2, #prod2 #more_cont3, #prod2 #more_cont4, #prod2 #more_cont5, #prod2 #more_cont6, #prod2 #more_cont7, #prod2 #more_cont8, #prod2 #more_cont9, #prod3 #more_cont1, #prod3 #more_cont2, #prod3 #more_cont3, #prod3 #more_cont4, #prod3 #more_cont5, #prod3 #more_cont6, #prod3 #more_cont7, #prod3 #more_cont8, #prod3 #more_cont9, #prod4 #more_cont1, #prod4 #more_cont2, #prod4 #more_cont3, #prod4 #more_cont4, #prod4 #more_cont5, #prod4 #more_cont6, #prod4 #more_cont7, #prod4 #more_cont8, #prod4 #more_cont9, #prod5 #more_cont1, #prod5 #more_cont2, #prod5 #more_cont3, #prod5 #more_cont4, #prod5 #more_cont5, #prod5 #more_cont6, #prod5 #more_cont7, #prod5 #more_cont8, #prod5 #more_cont9, #prod6 #more_cont1, #prod6 #more_cont2, #prod6 #more_cont3, #prod6 #more_cont4, #prod6 #more_cont5, #prod6 #more_cont6, #prod6 #more_cont7, #prod6 #more_cont8, #prod6 #more_cont9, #prod7 #more_cont1, #prod7 #more_cont2, #prod7 #more_cont3, #prod7 #more_cont4, #prod7 #more_cont5, #prod7 #more_cont6, #prod7 #more_cont7, #prod7 #more_cont8, #prod7 #more_cont9, #prod8 #more_cont1, #prod8 #more_cont2, #prod8 #more_cont3, #prod8 #more_cont4, #prod8 #more_cont5, #prod8 #more_cont6, #prod8 #more_cont7, #prod8 #more_cont8, #prod8 #more_cont9, #prod9 #more_cont1, #prod9 #more_cont2, #prod9 #more_cont3, #prod9 #more_cont4, #prod9 #more_cont5, #prod9 #more_cont6, #prod9 #more_cont7, #prod9 #more_cont8, #prod9 #more_cont9 {
+  display: none; }
+#prod1 #more1, #prod1 #less1, #prod1 #more2, #prod1 #less2, #prod1 #more3, #prod1 #less3, #prod1 #more4, #prod1 #less4, #prod1 #more5, #prod1 #less5, #prod1 #more6, #prod1 #less6, #prod1 #more7, #prod1 #less7, #prod1 #more8, #prod1 #less8, #prod1 #more9, #prod1 #less9, #prod2 #more1, #prod2 #less1, #prod2 #more2, #prod2 #less2, #prod2 #more3, #prod2 #less3, #prod2 #more4, #prod2 #less4, #prod2 #more5, #prod2 #less5, #prod2 #more6, #prod2 #less6, #prod2 #more7, #prod2 #less7, #prod2 #more8, #prod2 #less8, #prod2 #more9, #prod2 #less9, #prod3 #more1, #prod3 #less1, #prod3 #more2, #prod3 #less2, #prod3 #more3, #prod3 #less3, #prod3 #more4, #prod3 #less4, #prod3 #more5, #prod3 #less5, #prod3 #more6, #prod3 #less6, #prod3 #more7, #prod3 #less7, #prod3 #more8, #prod3 #less8, #prod3 #more9, #prod3 #less9, #prod4 #more1, #prod4 #less1, #prod4 #more2, #prod4 #less2, #prod4 #more3, #prod4 #less3, #prod4 #more4, #prod4 #less4, #prod4 #more5, #prod4 #less5, #prod4 #more6, #prod4 #less6, #prod4 #more7, #prod4 #less7, #prod4 #more8, #prod4 #less8, #prod4 #more9, #prod4 #less9, #prod5 #more1, #prod5 #less1, #prod5 #more2, #prod5 #less2, #prod5 #more3, #prod5 #less3, #prod5 #more4, #prod5 #less4, #prod5 #more5, #prod5 #less5, #prod5 #more6, #prod5 #less6, #prod5 #more7, #prod5 #less7, #prod5 #more8, #prod5 #less8, #prod5 #more9, #prod5 #less9, #prod6 #more1, #prod6 #less1, #prod6 #more2, #prod6 #less2, #prod6 #more3, #prod6 #less3, #prod6 #more4, #prod6 #less4, #prod6 #more5, #prod6 #less5, #prod6 #more6, #prod6 #less6, #prod6 #more7, #prod6 #less7, #prod6 #more8, #prod6 #less8, #prod6 #more9, #prod6 #less9, #prod7 #more1, #prod7 #less1, #prod7 #more2, #prod7 #less2, #prod7 #more3, #prod7 #less3, #prod7 #more4, #prod7 #less4, #prod7 #more5, #prod7 #less5, #prod7 #more6, #prod7 #less6, #prod7 #more7, #prod7 #less7, #prod7 #more8, #prod7 #less8, #prod7 #more9, #prod7 #less9, #prod8 #more1, #prod8 #less1, #prod8 #more2, #prod8 #less2, #prod8 #more3, #prod8 #less3, #prod8 #more4, #prod8 #less4, #prod8 #more5, #prod8 #less5, #prod8 #more6, #prod8 #less6, #prod8 #more7, #prod8 #less7, #prod8 #more8, #prod8 #less8, #prod8 #more9, #prod8 #less9, #prod9 #more1, #prod9 #less1, #prod9 #more2, #prod9 #less2, #prod9 #more3, #prod9 #less3, #prod9 #more4, #prod9 #less4, #prod9 #more5, #prod9 #less5, #prod9 #more6, #prod9 #less6, #prod9 #more7, #prod9 #less7, #prod9 #more8, #prod9 #less8, #prod9 #more9, #prod9 #less9 {
+  display: inline-block;
+  margin-top: 2%; }
+#prod1 #ch1:checked ~ #more_cont1, #prod1 #ch2:checked ~ #more_cont2, #prod1 #ch3:checked ~ #more_cont3, #prod1 #ch4:checked ~ #more_cont4, #prod1 #ch5:checked ~ #more_cont5, #prod1 #ch6:checked ~ #more_cont6, #prod1 #ch7:checked ~ #more_cont7, #prod1 #ch8:checked ~ #more_cont8, #prod1 #ch9:checked ~ #more_cont9, #prod2 #ch1:checked ~ #more_cont1, #prod2 #ch2:checked ~ #more_cont2, #prod2 #ch3:checked ~ #more_cont3, #prod2 #ch4:checked ~ #more_cont4, #prod2 #ch5:checked ~ #more_cont5, #prod2 #ch6:checked ~ #more_cont6, #prod2 #ch7:checked ~ #more_cont7, #prod2 #ch8:checked ~ #more_cont8, #prod2 #ch9:checked ~ #more_cont9, #prod3 #ch1:checked ~ #more_cont1, #prod3 #ch2:checked ~ #more_cont2, #prod3 #ch3:checked ~ #more_cont3, #prod3 #ch4:checked ~ #more_cont4, #prod3 #ch5:checked ~ #more_cont5, #prod3 #ch6:checked ~ #more_cont6, #prod3 #ch7:checked ~ #more_cont7, #prod3 #ch8:checked ~ #more_cont8, #prod3 #ch9:checked ~ #more_cont9, #prod4 #ch1:checked ~ #more_cont1, #prod4 #ch2:checked ~ #more_cont2, #prod4 #ch3:checked ~ #more_cont3, #prod4 #ch4:checked ~ #more_cont4, #prod4 #ch5:checked ~ #more_cont5, #prod4 #ch6:checked ~ #more_cont6, #prod4 #ch7:checked ~ #more_cont7, #prod4 #ch8:checked ~ #more_cont8, #prod4 #ch9:checked ~ #more_cont9, #prod5 #ch1:checked ~ #more_cont1, #prod5 #ch2:checked ~ #more_cont2, #prod5 #ch3:checked ~ #more_cont3, #prod5 #ch4:checked ~ #more_cont4, #prod5 #ch5:checked ~ #more_cont5, #prod5 #ch6:checked ~ #more_cont6, #prod5 #ch7:checked ~ #more_cont7, #prod5 #ch8:checked ~ #more_cont8, #prod5 #ch9:checked ~ #more_cont9, #prod6 #ch1:checked ~ #more_cont1, #prod6 #ch2:checked ~ #more_cont2, #prod6 #ch3:checked ~ #more_cont3, #prod6 #ch4:checked ~ #more_cont4, #prod6 #ch5:checked ~ #more_cont5, #prod6 #ch6:checked ~ #more_cont6, #prod6 #ch7:checked ~ #more_cont7, #prod6 #ch8:checked ~ #more_cont8, #prod6 #ch9:checked ~ #more_cont9, #prod7 #ch1:checked ~ #more_cont1, #prod7 #ch2:checked ~ #more_cont2, #prod7 #ch3:checked ~ #more_cont3, #prod7 #ch4:checked ~ #more_cont4, #prod7 #ch5:checked ~ #more_cont5, #prod7 #ch6:checked ~ #more_cont6, #prod7 #ch7:checked ~ #more_cont7, #prod7 #ch8:checked ~ #more_cont8, #prod7 #ch9:checked ~ #more_cont9, #prod8 #ch1:checked ~ #more_cont1, #prod8 #ch2:checked ~ #more_cont2, #prod8 #ch3:checked ~ #more_cont3, #prod8 #ch4:checked ~ #more_cont4, #prod8 #ch5:checked ~ #more_cont5, #prod8 #ch6:checked ~ #more_cont6, #prod8 #ch7:checked ~ #more_cont7, #prod8 #ch8:checked ~ #more_cont8, #prod8 #ch9:checked ~ #more_cont9, #prod9 #ch1:checked ~ #more_cont1, #prod9 #ch2:checked ~ #more_cont2, #prod9 #ch3:checked ~ #more_cont3, #prod9 #ch4:checked ~ #more_cont4, #prod9 #ch5:checked ~ #more_cont5, #prod9 #ch6:checked ~ #more_cont6, #prod9 #ch7:checked ~ #more_cont7, #prod9 #ch8:checked ~ #more_cont8, #prod9 #ch9:checked ~ #more_cont9 {
+  display: block; }
+#prod1 #ch1:checked ~ #more1, #prod1 #ch2:checked ~ #more2, #prod1 #ch3:checked ~ #more3, #prod1 #ch4:checked ~ #more4, #prod1 #ch5:checked ~ #more5, #prod1 #ch6:checked ~ #more6, #prod1 #ch7:checked ~ #more7, #prod1 #ch8:checked ~ #more8, #prod1 #ch9:checked ~ #more9, #prod2 #ch1:checked ~ #more1, #prod2 #ch2:checked ~ #more2, #prod2 #ch3:checked ~ #more3, #prod2 #ch4:checked ~ #more4, #prod2 #ch5:checked ~ #more5, #prod2 #ch6:checked ~ #more6, #prod2 #ch7:checked ~ #more7, #prod2 #ch8:checked ~ #more8, #prod2 #ch9:checked ~ #more9, #prod3 #ch1:checked ~ #more1, #prod3 #ch2:checked ~ #more2, #prod3 #ch3:checked ~ #more3, #prod3 #ch4:checked ~ #more4, #prod3 #ch5:checked ~ #more5, #prod3 #ch6:checked ~ #more6, #prod3 #ch7:checked ~ #more7, #prod3 #ch8:checked ~ #more8, #prod3 #ch9:checked ~ #more9, #prod4 #ch1:checked ~ #more1, #prod4 #ch2:checked ~ #more2, #prod4 #ch3:checked ~ #more3, #prod4 #ch4:checked ~ #more4, #prod4 #ch5:checked ~ #more5, #prod4 #ch6:checked ~ #more6, #prod4 #ch7:checked ~ #more7, #prod4 #ch8:checked ~ #more8, #prod4 #ch9:checked ~ #more9, #prod5 #ch1:checked ~ #more1, #prod5 #ch2:checked ~ #more2, #prod5 #ch3:checked ~ #more3, #prod5 #ch4:checked ~ #more4, #prod5 #ch5:checked ~ #more5, #prod5 #ch6:checked ~ #more6, #prod5 #ch7:checked ~ #more7, #prod5 #ch8:checked ~ #more8, #prod5 #ch9:checked ~ #more9, #prod6 #ch1:checked ~ #more1, #prod6 #ch2:checked ~ #more2, #prod6 #ch3:checked ~ #more3, #prod6 #ch4:checked ~ #more4, #prod6 #ch5:checked ~ #more5, #prod6 #ch6:checked ~ #more6, #prod6 #ch7:checked ~ #more7, #prod6 #ch8:checked ~ #more8, #prod6 #ch9:checked ~ #more9, #prod7 #ch1:checked ~ #more1, #prod7 #ch2:checked ~ #more2, #prod7 #ch3:checked ~ #more3, #prod7 #ch4:checked ~ #more4, #prod7 #ch5:checked ~ #more5, #prod7 #ch6:checked ~ #more6, #prod7 #ch7:checked ~ #more7, #prod7 #ch8:checked ~ #more8, #prod7 #ch9:checked ~ #more9, #prod8 #ch1:checked ~ #more1, #prod8 #ch2:checked ~ #more2, #prod8 #ch3:checked ~ #more3, #prod8 #ch4:checked ~ #more4, #prod8 #ch5:checked ~ #more5, #prod8 #ch6:checked ~ #more6, #prod8 #ch7:checked ~ #more7, #prod8 #ch8:checked ~ #more8, #prod8 #ch9:checked ~ #more9, #prod9 #ch1:checked ~ #more1, #prod9 #ch2:checked ~ #more2, #prod9 #ch3:checked ~ #more3, #prod9 #ch4:checked ~ #more4, #prod9 #ch5:checked ~ #more5, #prod9 #ch6:checked ~ #more6, #prod9 #ch7:checked ~ #more7, #prod9 #ch8:checked ~ #more8, #prod9 #ch9:checked ~ #more9 {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  #cont_nav {
+    border: px solid red;
+    width: 100%;
+    height: auto; }
+
+  #logbox {
+    width: 100%; }
+
+  #navbar {
+    width: 100%; }
+    #navbar #nav1 ul li {
+      width: 100%;
+      height: 30px;
+      margin-top: 0%; }
+      #navbar #nav1 ul li a {
+        border: 1px solid #ebebe0;
+        width: 64%;
+        height: 30px;
+        margin-left: -35%;
+        border-radius: 10px;
+        position: absolute; }
+        #navbar #nav1 ul li a:hover {
+          background-color: #000000;
+          border: 1px solid #009900;
+          box-shadow: 5px 5px 10px 5px #4a9146; }
+
+  #srvc_cats {
+    border: px solid red; }
+    #srvc_cats #srvc_cat_1, #srvc_cats #srvc_cat_2_1 {
+      border: px solid green;
+      width: 90%; }
+
+  #Our_Prod {
+    width: 80%;
+    margin: auto;
+    display: block; }
+
+  #footer {
+    border: px solid red; }
+    #footer #imp_links {
+      border: px solid red; }
+      #footer #imp_links #footer_right {
+        border: px solid red;
+        margin-left: 0%; } }
+body {
+  background-color: #ebebe0; }
+  body a {
+    text-decoration: none; }
+
+#navbar {
+  border: 1px solid transparent;
+  display: block;
+  margin: auto; }
+
+#nav1 {
+  border: 1px solid transparent;
+  display: block;
+  margin: auto;
+  height: 60px;
+  width: 100%;
+  /* Change the link color to #111 (black) on hover */ }
+  #nav1 ul {
+    list-style-type: none;
+    margin-left: 0%; }
+    #nav1 ul li {
+      float: left;
+      height: auto;
+      margin: 1%;
+      margin-left: 2%;
+      margin-top: 3%; }
+      #nav1 ul li a {
+        border: px solid #000000;
+        text-decoration: none;
+        color: #ebebe0;
+        font-weight: Bold; }
+        #nav1 ul li a:hover {
+          color: #006bb3; }
+
+#marq {
+  border: px solid #000000;
+  font-weight: Bold;
+  width: 80%;
+  margin: 0%;
+  margin-left: 10%; }
+  #marq:hover {
+    color: #006bb3; }
+
+#home_desc {
+  border: px solid #000000; }
+
+#home_desc_cont {
+  border: px solid #000000;
+  display: block;
+  margin: auto; }
+  #home_desc_cont p {
+    text-align: center; }
+    #home_desc_cont p:hover {
+      color: #009900; }
+
+#vert_mchin_main {
+  border: px solid #000000; }
+  #vert_mchin_main #vert_lft {
+    border: px solid #f71505; }
+    #vert_mchin_main #vert_lft h1, #vert_mchin_main #vert_lft #h1 {
+      margin: 0%; }
+    #vert_mchin_main #vert_lft #srvc_cat_2_1 {
+      margin: auto;
+      display: block;
+      border: px solid #f71505;
+      height: auto;
+      margin-top: 2%; }
+      #vert_mchin_main #vert_lft #srvc_cat_2_1 img {
+        margin-left: 0%;
+        position: relative;
+        width: 100%;
+        height: 440px; }
+        #vert_mchin_main #vert_lft #srvc_cat_2_1 img:hover {
+          width: 130%;
+          height: 480px;
+          transition: 1s;
+          margin-top: -15px;
+          margin-left: -15%;
+          box-shadow: 5px 5px 10px 5px #999696;
+          z-index: 1;
+          border: 5px solid #494d52; }
+  #vert_mchin_main #vert_rgt {
+    border: px solid green; }
+    #vert_mchin_main #vert_rgt h1, #vert_mchin_main #vert_rgt #h1 {
+      margin: 0%; }
+    #vert_mchin_main #vert_rgt #srvc_cat_2_1 {
+      margin: auto;
+      display: block;
+      border: px solid #f71505;
+      height: auto;
+      margin-top: 2%; }
+      #vert_mchin_main #vert_rgt #srvc_cat_2_1 img {
+        margin-left: 0%;
+        position: relative;
+        width: 100%;
+        height: 440px; }
+        #vert_mchin_main #vert_rgt #srvc_cat_2_1 img:hover {
+          width: 130%;
+          height: 480px;
+          transition: 1s;
+          margin-top: -15px;
+          margin-left: -15%;
+          box-shadow: 5px 5px 10px 5px #999696;
+          z-index: 1;
+          border: 5px solid #494d52; }
+
+#srvc_cats {
+  border: px solid #000000;
+  display: block;
+  margin: auto; }
+  #srvc_cats #srvc_cat_1, #srvc_cats #srvc_cat_2_1 {
+    border: px solid #000000;
+    height: auto;
+    margin-left: 5%;
+    float: left;
+    border: px solid #f71505;
+    height: auto;
+    margin-top: 2%; }
+    #srvc_cats #srvc_cat_1 #srvc_cat_head1, #srvc_cats #srvc_cat_2_1 #srvc_cat_head1 {
+      border: px solid #000000;
+      height: auto; }
+      #srvc_cats #srvc_cat_1 #srvc_cat_head1 a, #srvc_cats #srvc_cat_2_1 #srvc_cat_head1 a {
+        text-align: center;
+        margin-top: 2%;
+        font-weight: bold;
+        color: #494d52; }
+        #srvc_cats #srvc_cat_1 #srvc_cat_head1 a:hover, #srvc_cats #srvc_cat_2_1 #srvc_cat_head1 a:hover {
+          color: orange; }
+    #srvc_cats #srvc_cat_1 img, #srvc_cats #srvc_cat_2_1 img {
+      margin-left: 0%;
+      position: relative;
+      width: 100%;
+      height: 440px; }
+      #srvc_cats #srvc_cat_1 img:hover, #srvc_cats #srvc_cat_2_1 img:hover {
+        width: 130%;
+        height: 480px;
+        transition: 1s;
+        margin-top: -15px;
+        margin-left: -15%;
+        box-shadow: 5px 5px 10px 5px #999696;
+        z-index: 1;
+        border: 5px solid #494d52; }
+
+#srvc_cats #srvc_cat_2_1 {
+  margin-left: 0%;
+  border: px solid #f71505;
+  height: auto;
+  margin-top: 2%; }
+  #srvc_cats #srvc_cat_2_1 img {
+    margin-left: 0%;
+    position: relative;
+    width: 100%;
+    height: 440px; }
+    #srvc_cats #srvc_cat_2_1 img:hover {
+      width: 130%;
+      height: 480px;
+      transition: 1s;
+      margin-top: -15px;
+      margin-left: -15%;
+      box-shadow: 5px 5px 10px 5px #999696;
+      z-index: 1;
+      border: 5px solid #494d52; }
+
+#working_capacity_imgs {
+  border: px solid #000000;
+  width: auto;
+  height: auto;
+  margin-top: 2%; }
+
+.imgtitle {
+  border: px solid #000000;
+  width: auto;
+  height: auto;
+  font-weight: Bold;
+  text-align: center;
+  color: #494d52; }
+  .imgtitle:hover {
+    color: #009900; }
+
+#wci {
+  border: px solid #000000;
+  width: auto;
+  height: auto;
+  margin: auto;
+  position: relative; }
+  #wci #wci_img {
+    margin-top: 1%; }
+    #wci #wci_img img {
+      width: 220px;
+      height: 220px;
+      z-index: -1; }
+      #wci #wci_img img:hover {
+        width: 260px;
+        height: 250px;
+        transition: 1s;
+        box-shadow: 5px 5px 10px 5px #999696;
+        z-index: 1;
+        border: 5px solid #494d52; }
+
+#Our_Prod {
+  text-align: center; }
+  #Our_Prod #Our_Prod_ext {
+    margin: auto;
+    display: block; }
+    #Our_Prod #Our_Prod_ext p:hover {
+      color: #009900; }
+
+#prod_desc1 {
+  border: px solid #000000;
+  display: block;
+  margin: auto; }
+  #prod_desc1 a {
+    color: #000000;
+    font-weight: Bold; }
+    #prod_desc1 a:hover {
+      color: #006bb3; }
+
+#srvc_cat_2 {
+  border: px solid #f71505;
+  height: auto;
+  margin-top: 2%; }
+  #srvc_cat_2 img {
+    margin-left: 0%;
+    position: relative;
+    width: 100%;
+    height: 440px; }
+    #srvc_cat_2 img:hover {
+      width: 130%;
+      height: 480px;
+      transition: 1s;
+      margin-top: -15px;
+      margin-left: -15%;
+      box-shadow: 5px 5px 10px 5px #999696;
+      z-index: 1;
+      border: 5px solid #494d52; }
+
+/*# sourceMappingURL=style.css.map */

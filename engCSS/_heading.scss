@@ -1,0 +1,41 @@
+
+h1{
+    text-align:$txt-align2;
+	margin-top: 2%;
+	color:$prm_color4;
+	&:hover{
+		color:$prm_color5;
+	}
+}
+#h1{
+@extend h1;
+	margin-top:1%;
+}
+#h2{
+    color:$prm_color3;
+    margin-top:5%;
+    margin-bottom:5%;
+    &:hover{
+        color:$prm_color1;
+    }
+}
+h3{
+    text-align:$txt-align2;
+	font-family: $font-style1;
+	font-weight: $ft-wgt1;
+	color:$prm_color4;
+	margin-top: 2%;
+	&:hover{
+		color:$prm_color5;
+	}
+}
+h5{
+    text-align:$txt-align2;
+	font-family: $font-style1;
+	font-weight: $ft-wgt1;
+	color:$prm_color3;
+	margin-top: 2%;
+	&:hover{
+		color:$prm_color1;
+	}
+}

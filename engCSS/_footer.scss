@@ -1,0 +1,65 @@
+#footer{
+	@extend #basic_cont;
+	margin-top: 2%;
+	margin-bottom: 2%;
+    p{
+		color: $prm_color3;
+        &:hover{
+            color:$prm_color1;
+        }
+	}
+	#imp_links{
+		border: px solid $bdr-color1;
+		width:auto;
+		height: auto;
+	}
+    #footer_left{
+		border: px solid $bdr-color1;
+        margin-left: 5%;
+        #contct{
+            border: px solid $bdr-color1;
+            width: 100%;
+            margin-top: 2%;
+            a{
+                color:$prm_color3;
+                &:hover{
+                    color:$prm_color1;
+                }
+            }
+        }
+    }
+    #footer_right{
+        border: px solid $bdr-color1;
+        margin-left: 3%;
+        #cont_links{
+            margin: auto;
+            display: block;
+            a{
+                color:$prm_color3;
+                &:hover{
+                    color:$prm_color1;
+                }
+            }
+        }
+        h3{
+            color:$prm_color3;
+            &:hover{
+                color:$prm_color1;
+            }
+        }
+    }
+    #copyright{
+        p{
+            color: $prm_color3;
+            &:hover{
+                color:$prm_color1;
+            }
+        }
+        a{
+            color: $prm_color3;
+            &:hover{
+                color:$prm_color1;
+            }
+        }
+    }
+}

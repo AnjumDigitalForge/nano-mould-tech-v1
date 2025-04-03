@@ -1,0 +1,36 @@
+#basic_cont{
+	border: 1px solid $bdr-color1;
+	border-radius:$bdr-rds1;
+	text-align:$txt-align2;
+	background-color:$prm_color4;
+	box-shadow:$bdr-shdw1;
+	width:100%;
+	margin-top:5%;
+}
+#cont_nav{
+    @extend #basic_cont;
+	width:100%;
+	height:auto;
+	margin-top:0%;
+}
+#cont1{
+	@extend #basic_cont;
+	width:70%;
+	margin-top:10%;
+	margin-bottom: 2%;    
+}
+#cont2{
+	width:50%;
+    @extend #basic_cont;
+}
+#cont3{
+    @extend #basic_cont;
+	width:100%;
+	margin-top:2%;
+}
+#cont_prod{
+    @extend #basic_cont;
+	background-color: $prm_color4;
+	margin-top:2%;
+	width:100%;
+}

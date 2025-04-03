@@ -1,0 +1,53 @@
+@mixin contcent{
+}
+@media screen and (max-width: 991px) {
+	#cont_nav{
+		width:100%;
+		height: auto;
+	}
+	#logbox{
+		width: 15%;
+		@include contcent;		
+	}
+	#navbar{
+		width: 80%;
+		@include contcent;
+		#nav1{
+			ul{
+				li{
+					margin-left:1%;
+				}
+			}
+		}
+	}
+	#marquee{
+		border: px solid $bdr-color2;
+		font-weight:$ft-wgt1;
+		width: 90%;
+		margin-top: 0%;
+		margin-left: 5%;
+		&:hover{
+			color:$prm_color5;
+		}
+	}
+	#srvc_cat_1{
+		a{
+			font-size: 14.2px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
